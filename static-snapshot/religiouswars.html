@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="./styles.css">
+        <script src="scripts.js"></script>
+        <title>Religious Wars</title>
+    </head>
+
+    <body2>
+        <!-- NAV STARTS HERE -->
+        <div class="nav">
+
+            <div class="dropdown">
+                <button class="dropbtn">Time Periods</button>
+                <div class="dropdown-content">
+                    <a onclick="openZollverein()" href="#">Zollverein</a>
+                    <a onclick="openUnificationWars()" href="#">Wars of Unification</a>
+                    <a onclick="openWW1()" href="#">World War 1</a>
+                    <a onclick="openWW2()" href="#">World War 2</a>
+                </div>
+            </div>
+
+
+            <div class="options" id="options">
+                <ul style="font-size: large;">
+                    <div class="menu">
+                    <div class="dropdown2">
+                <button class="dropbtn2" onclick="myFunction()">Menu</button>
+                <div id="myDropdown2" class="dropdown-content2">
+                    <a onclick="openHome()" href="#">Home</a>
+                    <a onclick="openCitations()" href="#">Citations</a>
+                </div>
+            </div>
+                    </div>
+                </ul>
+            </div>
+
+        </div>
+        <!-- NAV ENDS HERE -->
+
+
+        <div id="wrap">
+            <iframe id="imagepgframe" frameBorder="0" src="https://storymaps.arcgis.com/stories/c8c10cdae5fb4ab499773e558a950e67" height="100%" allowfullscreen allow="geolocation"></iframe>
+        </div>
+
+    </body2>
+</html>

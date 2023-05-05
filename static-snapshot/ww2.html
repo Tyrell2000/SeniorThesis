@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="./styles.css">
+        <script src="scripts.js"></script>
+        <title>WW2</title>
+    </head>
+
+    <body>
+        <!-- NAV STARTS HERE -->
+        <div class="nav">
+            <div class="dropdown">
+                <button class="dropbtn">Time Periods</button>
+                <div class="dropdown-content">
+                    <a onclick="open30YearsWar()" href="#">30 Years' War</a>
+                    <a onclick="openZollverein()" href="#">Zollverein</a>
+                    <a onclick="openUnificationWars()" href="#">Wars of Unification</a>
+                    <a onclick="openWW1()" href="#">World War 1</a>
+                </div>
+            </div>
+
+            <div class="options" id="options">
+                <ul style="font-size: large;">
+                    <div class="menu">
+                    <div class="dropdown2">
+                <button class="dropbtn2" onclick="myFunction()">Menu</button>
+                <div id="myDropdown2" class="dropdown-content2">
+                    <a onclick="openHome()" href="#">Home</a>
+                    <a onclick="openCitations()" href="#">Citations</a>
+                </div>
+            </div>
+                    </div>
+                </ul>
+            </div>
+
+        </div>
+        <!-- NAV ENDS HERE -->
+
+        <div id="wrap">
+            <iframe id="imagepgframe" frameBorder="0" src="https://storymaps.arcgis.com/stories/91e066df1fa54b97b78d2fcd94e3f44e" height="100%" allowfullscreen allow="geolocation"></iframe>
+        </div>
+
+    </body>
+</html>
